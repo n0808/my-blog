@@ -1,2 +1,10 @@
-<h1>Articles#edit</h1>
-<p>Find me in app/views/articles/edit.html.erb</p>
+<div class="container">
+  <div class="col-md-12 margin-top-5per article-block">
+    <h1 class= "text-center">ブログの編集</h1>
+    <%= image_tag 'ham.jpg',class:'article-image padding-top-15'%>
+    <div class="padding-bottom-15">
+      <%= render 'form',article: @article %>
+    </div>
+  </div>
+</div>
+
